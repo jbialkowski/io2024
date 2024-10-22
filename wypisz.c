@@ -7,6 +7,9 @@ int wypisz(int indeks)
      case 123456:
        wypisz_123456();
        return 1;
+     case 123458:
+       wypisz_123458();
+       return 1;
      default:
        return 0;
    }
