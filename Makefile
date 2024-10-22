@@ -10,7 +10,7 @@ default: $(EXEC)
 program: $(OBJ)
 	$(CC) $(CFLAGS) -o $@ $+
 
-%.o: %.c program.h
+%.o: %.c funkcje.h
 	$(CC) $(CFLAGS) -c $<
 
 clean:
